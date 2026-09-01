@@ -44,7 +44,6 @@ SND_COIN = generate_sound(880, 0.15)
 SND_STOMP = generate_sound(150, 0.12)
 SND_POWERUP = generate_sound(600, 0.25)
 SND_HURT = generate_sound(100, 0.3)
--
 def create_player_sprite(is_big=False):
     w, h = (36, 48) if is_big else (28, 36)
     surface = pygame.Surface((w, h), pygame.SRCALPHA)
